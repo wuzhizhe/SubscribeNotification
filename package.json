@@ -1,0 +1,31 @@
+{
+  "name": "subnotification",
+  "version": "1.0.0",
+  "description": "订阅服务接收推送的通知",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuzhizhe/SubscribeNotification.git"
+  },
+  "keywords": [
+    "Subscribe",
+    "Notification",
+    "web push"
+  ],
+  "author": "wuzhizhemu569@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wuzhizhe/SubscribeNotification/issues"
+  },
+  "homepage": "https://github.com/wuzhizhe/SubscribeNotification#readme",
+  "dependencies": {
+    "consolidate": "^0.14.5",
+    "koa": "^2.2.0",
+    "koa-router": "^7.1.1",
+    "koa-views": "^6.0.2",
+    "pug": "^2.0.0-rc.1"
+  }
+}
